@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "rootDir": "../advanced-library-management/src",
+    "outDir": "../advanced-library-management/dist",
+
+    "target": "esnext",
+    "lib": ["esnext"],
+    "types": ["node"],
+    "module": "nodenext",
+    "verbatimModuleSyntax": true,
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+
+    // coding rules
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["../advanced-library-management/src/**/*"],
+  "exclude": ["../advanced-library-management/node_modules"]
+}
